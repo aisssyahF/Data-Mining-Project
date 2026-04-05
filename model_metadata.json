@@ -1,0 +1,64 @@
+{
+  "best_model_name": "Random Forest",
+  "best_model_metrics": {
+    "accuracy": 0.8156955039766272,
+    "precision": 0.8838282848685356,
+    "recall": 0.8156955039766272,
+    "f1_score": 0.8402002143434242
+  },
+  "all_models_comparison": {
+    "Logistic Regression": {
+      "accuracy": 0.5683168316831683,
+      "precision": 0.8383271572487829,
+      "recall": 0.5683168316831683,
+      "f1_score": 0.6475957921423575
+    },
+    "Decision Tree": {
+      "accuracy": 0.773186171076124,
+      "precision": 0.8822298310164445,
+      "recall": 0.773186171076124,
+      "f1_score": 0.8098262145661846
+    },
+    "Random Forest": {
+      "accuracy": 0.8156955039766272,
+      "precision": 0.8838282848685356,
+      "recall": 0.8156955039766272,
+      "f1_score": 0.8402002143434242
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.7892225288102581,
+      "precision": 0.8858157300742986,
+      "recall": 0.7892225288102581,
+      "f1_score": 0.8218957640563992
+    }
+  },
+  "training_data": {
+    "train_samples": 246438,
+    "test_samples": 61610,
+    "minor_class_pct": 88.91688781762554,
+    "major_class_pct": 11.083112182374471
+  },
+  "features": [
+    "Hour",
+    "DayOfWeek",
+    "Month",
+    "Is_RushHour",
+    "Is_Weekend",
+    "Is_Night",
+    "Temperature(F)",
+    "Humidity(%)",
+    "Pressure(in)",
+    "Visibility(mi)",
+    "Wind_Speed(mph)",
+    "Precipitation(in)",
+    "Distance(mi)",
+    "Bump",
+    "Crossing",
+    "Junction",
+    "Railway",
+    "Stop",
+    "Traffic_Signal",
+    "Road_Features_Count"
+  ],
+  "n_features": 20
+}
