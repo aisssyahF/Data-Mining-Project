@@ -20,12 +20,15 @@ Data Mining Project/
     ├── feature_scaler.pkl                     # StandardScaler for normalization
     ├── model_features.txt                     # List of 20 features used in model
     └── model_metadata.json                    # Model performance metrics
-
+```
+---
 
 ## 📋 Prerequisites
 * **Python**: 3.8 or higher
 * **Tools**: Jupyter Notebook / JupyterLab & a Web Browser (to view the Streamlit dashboard)
 * **Hardware**: 8GB RAM minimum (16GB recommended) and at least 5GB free disk space.
+
+---
 
 ## 📊 Dataset Download
 Due to GitHub's file size limits, the dataset must be downloaded manually:
